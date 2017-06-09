@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         infoLabel.text = "Hello World!"
     }
 
-    @IBAction func clearSelected(_ sender: UIButton) {
+    @IBAction func clearSelected(_ sender: Any) {
         infoLabel.text = ""
     }
 }
