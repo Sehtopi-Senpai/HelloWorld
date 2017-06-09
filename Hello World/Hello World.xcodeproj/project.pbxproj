@@ -12,7 +12,6 @@
 		7BD848EB1EEA3385002CCD07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD848E91EEA3385002CCD07 /* Main.storyboard */; };
 		7BD848EE1EEA3385002CCD07 /* Hello_World.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BD848EC1EEA3385002CCD07 /* Hello_World.xcdatamodeld */; };
 		7BD848F01EEA3385002CCD07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BD848EF1EEA3385002CCD07 /* Assets.xcassets */; };
-		7BD848F31EEA3385002CCD07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD848F11EEA3385002CCD07 /* LaunchScreen.storyboard */; };
 		7BD848FE1EEA3385002CCD07 /* Hello_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD848FD1EEA3385002CCD07 /* Hello_WorldTests.swift */; };
 		7BD849091EEA3385002CCD07 /* Hello_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD849081EEA3385002CCD07 /* Hello_WorldUITests.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +40,6 @@
 		7BD848EA1EEA3385002CCD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BD848ED1EEA3385002CCD07 /* Hello_World.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hello_World.xcdatamodel; sourceTree = "<group>"; };
 		7BD848EF1EEA3385002CCD07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7BD848F21EEA3385002CCD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BD848F41EEA3385002CCD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BD848F91EEA3385002CCD07 /* Hello WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD848FD1EEA3385002CCD07 /* Hello_WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldTests.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				7BD848E71EEA3385002CCD07 /* ViewController.swift */,
 				7BD848E91EEA3385002CCD07 /* Main.storyboard */,
 				7BD848EF1EEA3385002CCD07 /* Assets.xcassets */,
-				7BD848F11EEA3385002CCD07 /* LaunchScreen.storyboard */,
 				7BD848F41EEA3385002CCD07 /* Info.plist */,
 				7BD848EC1EEA3385002CCD07 /* Hello_World.xcdatamodeld */,
 			);
@@ -235,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BD848F31EEA3385002CCD07 /* LaunchScreen.storyboard in Resources */,
 				7BD848F01EEA3385002CCD07 /* Assets.xcassets in Resources */,
 				7BD848EB1EEA3385002CCD07 /* Main.storyboard in Resources */,
 			);
@@ -306,14 +302,6 @@
 				7BD848EA1EEA3385002CCD07 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7BD848F11EEA3385002CCD07 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7BD848F21EEA3385002CCD07 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
